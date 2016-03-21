@@ -1,4 +1,4 @@
-for loop*/
+/*for loop*/
 /*var pets = ["dog", "cat", "bunny"]
 var safari = ["monkey", "giraffe", "elephant"]
 var animals = [pets, safari]
@@ -130,28 +130,22 @@ function.*/
 	}
 }
 
-maxNum(5,5)
-*/
+maxNum(5,5)*/
+
 /*6. Define a function `maxOfThree()` that takes three numbers as arguments and returns the largest. This should be done using if-else logic and 
 not a predefined JavaScript function.*/
 
 /*function maxOfThree(i,j,k) {
-	if(i>j){
+	if(i > j, i > k){
 		console.log(i);
-	}else if(i>k){
-		console.log(i);
-	}else if(j>i){
+	}if(j > i, j > k){
 		console.log(j);
-	}else if(k>i){
-		console.log(k);
-	}else if(j>k){
-		console.log (j);
-	}else(k>j){
+	}if(k > i, k > j){
 		console.log(k);
 	}
 }
 
-maxOfThree(1,2,3)*/
+maxOfThree(9,6,3);*/
 
 /*7. Write a function `translate()` that will double every consonant and lace an occurrence of 'o' in between.*/
 /*function translate (){
@@ -178,14 +172,15 @@ translate(myString)*/
 
 /*8. Define a function `sum()` and a function `multiply()` that sums and multiplies(respectively) all the numbers in an array of numbers.*/
 
-function sum(){
+/*function sum(){
 	var numbOne = [1,3,5]
 	for (var i = 0; i < numbOne.length; i++) {
 		sum += numbOne[i]
 	};
+	console.log(sum);
 }
 
-sum();
+sum();*/
 
 /*12. Write a `filterLongWords()` that takes an array of words and an integer `i` and returns the array of words longer than `i`. Do not use any predefined JavaScript functions.*/
 /*function filterLongWords(myArray, myNumber){
@@ -198,6 +193,6 @@ sum();
   return newArray;
 }
 
-var number = 2;
+var number = 0;
 var myArray = ["string1", "2", "three"];
-console.log(filterLongWords(myArray, number));
+console.log(filterLongWords(myArray, number));*/
